@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Coding Assignment</title>
+    <!-- links to JS file and Bootstrap -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <!-- Used alert classes to style h1 element -->
+    <h1 class = "alert alert-primary alert-dark">NBA Starting Lineups</h1>
+    <!-- Used table classes to stle table to be dark and have hover effect. Added
+    id to table to be used in function in script file -->
+    <table id = "nbaTable" class = "table table-primary table-hover table-dark">
+        <tr>
+            <th>Team</th>
+            <th>Point Guard</th>
+            <th>Shooting Guard</th>
+            <th>Small Forward</th>
+            <th>Power Forward</th>
+            <th>Center</th>
+        </tr>
+        <tr>
+            <td>Lakers</td>
+            <td>D'Angelo Russell</td>
+            <td>Cam Reddish</td>
+            <td>Tauren Prince</td>
+            <td>LeBron James</td>
+            <td>Anthony Davis</td>
+        </tr>
+        <tr>
+            <td>Celtics</td>
+            <td>Jrue Holiday</td>
+            <td>Derrick White</td>
+            <td>Jaylen Brown</td>
+            <td>Jayson Tatum</td>
+            <td>Kristaps Porzingis</td>
+        </tr>
+        <tr>
+            <td>Warriors</td>
+            <td>Stephen Curry</td>
+            <td>Klay Thompson</td>
+            <td>Andrew Wiggins</td>
+            <td>Draymond Green</td>
+            <td>Kevon Looney</td>
+        </tr>
+    </table>
+<!-- Styled button w/ Bootstrap and linked to addTeam function in script file -->
+<button class="btn btn-primary btn-dark" onclick = "addTeam()">Add Team</button>
+</body>
+</html>
